@@ -7,8 +7,7 @@ public class Character_Count {
             if(str.charAt(i)==c){
                 count++;
             }
-        }
-        return count;
+        }        return count;
     }
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
