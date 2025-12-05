@@ -16,7 +16,6 @@ public class FuelComsumption {
         System.out.println("Enter the distance covered");
         int distance= sc.nextInt();
         double dis=(distance*1.00);
-
         if(distance<1){
             System.out.println(distance+" is invalid input");
             System.exit(0);
