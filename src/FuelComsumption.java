@@ -20,6 +20,7 @@ public class FuelComsumption {
             System.out.println(distance+" is invalid input");
             System.exit(0);
         }
+
         double hundread=((liters/dis)*100);
         System.out.println("Liters/100KM");
         System.out.println(df2.format(hundread));
