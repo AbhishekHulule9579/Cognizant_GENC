@@ -3,8 +3,7 @@ import java.util.Scanner;
 public class EvenOddArray {
     public static void evenOdd(int n,int[] arr){
         for(int i=0;i<n;i++){
-            if(arr[i]%2==0)
-            {
+            if(arr[i]%2==0) {
                 System.out.print("Even ");
             }
             else{
